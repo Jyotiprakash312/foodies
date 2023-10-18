@@ -4,7 +4,7 @@ import{useEffect} from 'react';
 import SearchResults from "./Components/SearchResults/SearchResults.jsx"; 
 
 
- export const BASE_URL="http://localhost:9000";
+ export const BASE_URL="https://foodies-gamma.vercel.app/";
 
 const App=()=> {
   const[data ,setData]=useState(null);
