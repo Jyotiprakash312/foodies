@@ -4,7 +4,7 @@ import{useEffect} from 'react';
 import SearchResults from "./Components/SearchResults/SearchResults.jsx"; 
 
 
- export const BASE_URL="foodies-tau.vercel.app";
+ export const BASE_URL="http://localhost:9000";
 
 const App=()=> {
   const[data ,setData]=useState(null);
